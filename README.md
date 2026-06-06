@@ -1,4 +1,19 @@
-# Fan-Perception-of-Naruto-Franchise-Characters
-The Naruto franchise, spanning Naruto, Naruto Shippuden, and Boruto: Naruto Next Generations, commands one of the most active anime communities on YouTube. This study applies sentiment analysis to 3,309 YouTube comments collected from 46 franchise-related videos using the YouTube Data API v3.
+This directory includes a few sample datasets to get you started.
 
-The Naruto franchise, spanning Naruto, Naruto Shippuden, and Boruto: Naruto Next Generations, commands one of the most active anime communities on YouTube. This study applies sentiment analysis to 3,309 YouTube comments collected from 46 franchise-related videos using the YouTube Data API v3. Comments were preprocessed, and character mentions were identified via name-matching and alias resolution. The ten most frequently mentioned characters were selected, and VADER (Valence Aware Dictionary and sEntiment Reasoner) was applied to classify comment sentiment as positive, negative, or neutral. Results indicate that Naruto Uzumaki leads in discussion volume (590 mentions, avg. sentiment +0.121), while Pain is the sole character with an overall negative sentiment score (avg. −0.176). Legacy characters from the original series and Shippuden dominate fan discourse, suggesting that nostalgia and narrative depth remain primary drivers of audience engagement. This study demonstrates the viability of YouTube comment mining as a method for quantifying anime character popularity and fan perception.
+*   `california_housing_data*.csv` is California housing data from the 1990 US
+    Census; more information is available at:
+    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+
+*   `mnist_*.csv` is a small sample of the
+    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
+    described at: http://yann.lecun.com/exdb/mnist/
+
+*   `anscombe.json` contains a copy of
+    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
+    was originally described in
+
+    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
+    Statistician. 27 (1): 17-21. JSTOR 2682899.
+
+    and our copy was prepared by the
+    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).

@@ -1,0 +1,11 @@
+Character,Mentions,Positive,Negative,Neutral,Positive_%,Negative_%,Avg_Sentiment,Overall
+Naruto,590,267,166,157,45.3,28.1,0.121,Positive
+Sasuke,338,153,109,76,45.3,32.2,0.079,Positive
+Boruto,263,110,69,84,41.8,26.2,0.105,Positive
+Itachi,237,108,59,70,45.6,24.9,0.115,Positive
+Kakashi,167,51,37,79,30.5,22.2,0.066,Positive
+Madara,117,45,37,35,38.5,31.6,0.023,Neutral/Mixed
+Kawaki,92,35,25,32,38.0,27.2,0.054,Positive
+Sakura,79,31,25,23,39.2,31.6,0.06,Positive
+Obito,79,33,30,16,41.8,38.0,-0.004,Neutral/Mixed
+Pain,61,17,37,7,27.9,60.7,-0.176,Negative
