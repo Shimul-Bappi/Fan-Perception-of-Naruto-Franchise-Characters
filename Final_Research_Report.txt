@@ -1,0 +1,99 @@
+
+FINAL RESEARCH REPORT
+
+Title:
+Sentiment Analysis of the 10 Most Discussed Characters in the Naruto Franchise:
+A YouTube-Based Study Across Naruto, Naruto Shippuden, and Boruto
+
+1. Introduction
+The Naruto franchise, including Naruto, Naruto Shippuden, and Boruto: Naruto Next Generations,
+has one of the largest and most active anime fan communities in the world. Fans regularly express
+their opinions on characters through YouTube comments, reviews, reactions, rankings, and discussion videos.
+This study uses sentiment analysis to identify the 10 most discussed characters in the franchise and
+analyze audience sentiment toward them based on YouTube comments.
+
+2. Objectives
+The objectives of this research are:
+1. To identify the top 10 most discussed Naruto franchise characters on YouTube.
+2. To classify audience sentiment toward these characters as positive, negative, or neutral.
+3. To compare character popularity and sentiment using comment-based text analysis.
+
+3. Methodology
+This study used the YouTube Data API v3 to collect comments from Naruto-related YouTube videos.
+Videos were selected using keywords related to Naruto, Naruto Shippuden, and Boruto.
+After collecting the comments, the text was cleaned by removing URLs, special characters, and extra spaces.
+Character mentions were counted using name matching and aliases.
+The top 10 characters were selected based on mention frequency.
+Sentiment analysis was then performed using the VADER sentiment analysis tool, which classified comments
+as positive, negative, or neutral based on compound sentiment scores.
+
+4. Data Summary
+Total videos analyzed: 46
+Total comments analyzed: 3309
+
+5. Top 10 Most Discussed Characters
+Character  Mentions
+   Naruto       590
+   Sasuke       338
+   Boruto       263
+   Itachi       237
+  Kakashi       167
+   Madara       117
+   Kawaki        92
+   Sakura        79
+    Obito        79
+     Pain        61
+
+6. Final Sentiment Analysis Results
+Character  Mentions  Positive  Negative  Neutral  Positive_%  Negative_%  Avg_Sentiment       Overall
+   Naruto       590       267       166      157        45.3        28.1          0.121      Positive
+   Sasuke       338       153       109       76        45.3        32.2          0.079      Positive
+   Boruto       263       110        69       84        41.8        26.2          0.105      Positive
+   Itachi       237       108        59       70        45.6        24.9          0.115      Positive
+  Kakashi       167        51        37       79        30.5        22.2          0.066      Positive
+   Madara       117        45        37       35        38.5        31.6          0.023 Neutral/Mixed
+   Kawaki        92        35        25       32        38.0        27.2          0.054      Positive
+   Sakura        79        31        25       23        39.2        31.6          0.060      Positive
+    Obito        79        33        30       16        41.8        38.0         -0.004 Neutral/Mixed
+     Pain        61        17        37        7        27.9        60.7         -0.176      Negative
+
+7. Discussion
+The results show that Naruto is the most discussed character in the dataset, with 590 mentions.
+This indicates that Naruto remains highly relevant in fan discussions across the Naruto franchise.
+
+Based on the sentiment analysis results, the overall sentiment toward Naruto is Positive.
+This suggests that audience discussions around this character are largely shaped by strong emotional engagement,
+character development, and memorable story impact.
+
+The character with the highest average sentiment score is Naruto, with an average sentiment score of 0.121.
+This means that this character receives the most favorable emotional response from YouTube audiences.
+
+The character with the lowest average sentiment score is Pain, with an average sentiment score of -0.176.
+This may indicate mixed reception, controversial writing decisions, or divided fan opinions.
+
+In general, the findings suggest that older legacy characters from Naruto and Naruto Shippuden tend to dominate
+fan discussions more strongly than newer Boruto-era characters. This may be due to nostalgia, deeper emotional arcs,
+and stronger audience attachment built over time.
+
+8. Conclusion
+This study successfully identified the top 10 most discussed Naruto franchise characters using YouTube comments
+and analyzed the sentiment associated with each one. The findings show that character popularity can be effectively
+measured using mention frequency, while fan perception can be evaluated through sentiment analysis.
+Overall, the study demonstrates that YouTube comments are a valuable source of audience opinion and can be used
+to understand character popularity and reception in long-running anime franchises.
+
+9. Limitations
+This study has several limitations:
+1. The analysis is limited to YouTube comments only and does not include Twitter, Reddit, or other platforms.
+2. Some comments may contain sarcasm, slang, or context that VADER may not fully understand.
+3. Character name matching may miss rare nicknames or indirect references.
+4. The number of videos and comments collected depends on API limits and selected search queries.
+
+10. Recommendations
+For future research, it is recommended to:
+1. Include multiple social media platforms for broader audience coverage.
+2. Use more advanced NLP models such as BERT for improved sentiment detection.
+3. Compare sentiment across Naruto, Shippuden, and Boruto separately.
+4. Analyze sentiment changes over time using publication year or arc-based grouping.
+
+End of Report
